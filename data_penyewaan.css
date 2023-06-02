@@ -1,0 +1,76 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(img/bg.jpeg);
+    background-size: cover;
+}
+
+/* Memposisikan form di tengah halaman */
+form {
+    display: flex;
+    font-size: 18px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #ffffff;
+    border: 5px solid #ffffff; /* Menambahkan garis tepi */
+    width: 300px; /* Lebar form */
+    margin: 0 auto; /* Memastikan posisi di tengah */
+    padding: 10px 10px 20px 10px; /* Jarak antara form dengan tepi */
+    border-radius: 20px;
+    box-sizing: border-box; /* Menghitung jarak dengan tepi dalam perhitungan lebar form */
+}
+
+/* Mengatur tampilan judul */
+h1 {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    color: #ffffff;
+    width: 100%;
+    line-height: 50px;
+}
+
+/* Mengatur tampilan input dan label */
+input[type="text"],
+input[type="number"],
+select {
+    margin: 10px;
+    padding: 5px;
+    width: 200px;
+}
+
+/* Mengatur tampilan input tanggal penyewaan */
+input[type="date"] {
+    margin: 10px;
+    padding: 5px;
+    width: 200px;
+}
+
+/* Mengatur tampilan tombol submit */
+input[type="submit"] {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background: #ffffff;
+    border-radius: 20px;
+    margin-top: 1 0px;
+    padding: 8px 13px 8px 13px;
+}
+
+input:hover {
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 8px 13px 8px 13px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+    background: #fc004c;
+    text-decoration:none;
+}

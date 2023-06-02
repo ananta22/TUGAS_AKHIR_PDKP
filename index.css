@@ -1,0 +1,117 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(img/bg.jpeg);
+    background-size: cover;
+
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    color: #ffffff;
+    width: 100%;
+    line-height: 50px;
+    
+}
+
+h2 {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+p{
+    color: #ffffff;
+}
+
+a{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background: #ffffff;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 8px 13px 8px 13px;
+
+}
+
+a:hover{
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 8px 13px 8px 13px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+    background: #fc004c;
+    text-decoration:none;}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; /* Mengatur pilihan PlayStation menjadi tengah */
+}
+
+li {
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+    margin: 55px;
+    text-align: center;
+    border: 5px solid #ccc; /* Menambahkan kotak pada pilihan PlayStation */
+    padding: 10px 10px 20px 10px; /* Memberi jarak antara konten dengan kotak */
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input[type="radio"] {
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.message {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
